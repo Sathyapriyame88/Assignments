@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Zoopla on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.zoopla.qa.test.Pages">
+        <methods>
+          <include name="qiut"/>
+          <include name="inputLocationAndClickSubmit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.test.Pages -->
+    </classes>
+  </test> <!-- Zoopla on chrome(failed) -->
+</suite> <!-- Failed suite [regression] -->

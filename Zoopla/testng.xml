@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression" parallel="tests" thread-count="2">
+<test name ="Zoopla on chrome">
+<parameter name="browser" value="chrome">
+</parameter>
+<classes>
+<class name ="com.zoopla.qa.test.Pages">
+</class>
+</classes></test>
+
+</suite>
+
